@@ -1,0 +1,27 @@
+.bottom-section > .codepen-for-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.bottom-section > .codepen-for-section div {
+    border: 1px solid #797979;
+    background-color: #404040;
+    color: #ffffff;
+    height: 50px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+
+.bottom-section > .codepen-for-section div b {
+    font-size: 1.3em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.bottom-section > .make-me-darkgrey {
+    background-color: #202022;
+    width: 100%;
+    height: 38px;
+}

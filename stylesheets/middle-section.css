@@ -1,0 +1,82 @@
+.middle-section {
+    width: 100%;
+    height: 430px;
+    background: rgb(47, 47, 47);
+    background: linear-gradient(120deg, rgba(77, 77, 88, 1) 20%, rgba(15, 15, 28, 1) 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: #bfbfbf;
+}
+
+.middle-section > .left-side {
+    margin-left: 50px;
+    margin-top: -15px;
+}
+
+.middle-section > .left-side > .par-1 {
+    font-size: 2.3em;
+    font-weight: 300;
+}
+
+.middle-section > .left-side > .par-1 b {
+    font-size: 0.9em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+.middle-section > .left-side > .par-1 img {
+    width: 35px;
+}
+
+.middle-section > .left-side > .par-2 {
+    font-size: 1.8em;
+}
+
+.middle-section > .left-side > .button-wrapper button {
+    height: 54px;
+    background-color: #64d76e;
+    border: none;
+    font-size: 1.5em;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    border-radius: 3px;
+    padding: 12px 25px;
+    margin-right: 20px;
+    box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.7);
+}
+
+.middle-section > .left-side > .button-wrapper button:nth-child(2) {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.middle-section > .left-side > .button-wrapper button:hover {
+    opacity: 0.88;
+    cursor: pointer;
+}
+
+.middle-section > .right-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.middle-section > .right-side > .projects {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 450px;
+}
+
+.middle-section > .right-side > .projects p {
+    margin-left: 10px;
+}
+
+.middle-section > .right-side > .projects p .style-me-blue {
+    color: #87ceeb;
+}
+
+.middle-section > .right-side > .img-wrapper img {
+    width: 450px;
+}
